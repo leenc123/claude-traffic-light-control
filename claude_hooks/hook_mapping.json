@@ -1,0 +1,8 @@
+{
+  "PreToolUse": "THINKING",
+  "UserPromptSubmit": "THINKING",
+  "PermissionRequest": "WAITING_USER",
+  "Notification": "WAITING_USER",
+  "PostToolUseFailure": "TOOL_ERROR",
+  "Stop": "TASK_COMPLETE"
+}

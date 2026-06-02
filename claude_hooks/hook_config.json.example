@@ -1,0 +1,65 @@
+{
+  // 根据实际情况替换路径
+  "PreToolUse": [
+    {
+      "hooks": [
+        {
+          "command": "python /path/to/claude_hooks/send_signal.py",
+          "type": "command"
+        }
+      ],
+      "matcher": "Write|Edit|Bash"
+    }
+  ],
+  "Notification": [
+    {
+      "hooks": [
+        {
+          "command": "python /path/to/claude_hooks/send_signal.py",
+          "type": "command"
+        }
+      ]
+    }
+  ],
+  "PermissionRequest": [
+    {
+      "hooks": [
+        {
+          "command": "python /path/to/claude_hooks/send_signal.py",
+          "type": "command"
+        }
+      ]
+    }
+  ],
+  "UserPromptSubmit": [
+    {
+      "hooks": [
+        {
+          "command": "python /path/to/claude_hooks/send_signal.py",
+          "type": "command"
+        }
+      ]
+    }
+  ],
+  "PostToolUseFailure": [
+    {
+      "hooks": [
+        {
+          "command": "python /path/to/claude_hooks/send_signal.py",
+          "type": "command"
+        }
+      ],
+      "matcher": "*"
+    }
+  ],
+  "Stop": [
+    {
+      "hooks": [
+        {
+          "command": "python /path/to/claude_hooks/send_signal.py",
+          "type": "command"
+        }
+      ]
+    }
+  ]
+}
